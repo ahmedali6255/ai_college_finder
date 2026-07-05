@@ -108,6 +108,7 @@ Contributions, suggestions, and improvements are always welcome.
 
 ---
 
+```
 ## 👨‍💻 Author
 
 **Ahmed Ali**
