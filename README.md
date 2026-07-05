@@ -96,18 +96,6 @@ reportlab
 
 ---
 
-## 🎯 Future Improvements
-
-* Scholarship recommendations
-* Tuition fee estimation
-* Admission deadline tracking
-* University ranking integration
-* Student authentication
-* Multi-language support
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are always welcome.
