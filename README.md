@@ -125,5 +125,6 @@ Contributions, suggestions, and improvements are always welcome.
 **Ahmed Ali**
 
 Electrical Engineering Student | Tech Enthusiast
+Linkedin: www.linkedin.com/in/ahmedali88
 ```
 
