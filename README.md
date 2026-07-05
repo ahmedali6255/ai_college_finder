@@ -1,6 +1,6 @@
 # 🎓 AI College Finder
 
-An AI-powered web application that helps students discover suitable universities based on their academic profile. The application provides personalized recommendations using Google's Gemini AI, allows university search, compares universities, saves favorites, and generates a professional PDF report.
+An AI-powered web application that helps students and professionals discover suitable universities based on their academic profile. The application provides personalized recommendations using Google's Gemini AI, allows university search, compares universities, saves favorites, and generates a professional PDF report.
 
 ---
 
