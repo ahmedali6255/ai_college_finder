@@ -28,9 +28,6 @@ from utils import (
     StudentProfile,
     University,
     load_api_key,
-    load_profile,
-    save_api_key,
-    save_profile,
     validate_profile,
     validate_search_query,
 )
@@ -78,7 +75,6 @@ st.markdown(
 def init_state():
     if "app_state" not in st.session_state:
         st.session_state.app_state = AppState()
-        st.session_state.app_state.profile = load_profile()
     if "gemini_client" not in st.session_state:
         st.session_state.gemini_client = None
 
@@ -193,8 +189,6 @@ if page == "👤 Student Profile":
                 st.warning(message)
             else:
                 state.profile = profile
-                save_profile(profile)
-                st.success(f"✓ Profile saved for {profile.full_name}.")
 
 
 # ---------------------------------------------------------------------------
