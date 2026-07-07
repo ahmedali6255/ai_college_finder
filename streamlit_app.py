@@ -27,7 +27,6 @@ from utils import (
     AppState,
     StudentProfile,
     University,
-    load_api_key,
     validate_profile,
     validate_search_query,
 )
@@ -83,7 +82,7 @@ def get_gemini() -> GeminiAI | None:
     """Lazily build the Gemini client, same pattern as gui.py's ensure_gemini()."""
     if st.session_state.gemini_client is not None:
         return st.session_state.gemini_client
-    api_key = st.session_state.get("user_api_key", "") or load_api_key()
+    api_key = st.session_state.get("user_api_key", "")
     if not api_key:
         st.warning("⚠️ No Gemini API key configured. Add one on the **Settings** page first.")
         return None
