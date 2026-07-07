@@ -1,18 +1,3 @@
-"""
-streamlit_app.py
------------------
-Streamlit version of AI College Finder.
-
-This file replaces gui.py + main.py from the CustomTkinter desktop build.
-api.py, ai.py, pdf_export.py, and utils.py are reused UNCHANGED — only the
-UI layer needed to be rewritten, since Streamlit's rerun-based model works
-very differently from CustomTkinter's event-driven windows.
-
-Run with:
-    streamlit run streamlit_app.py
-
-Then deploy for free (shareable link) via https://share.streamlit.io
-"""
 import os
 import tempfile
 import streamlit as st
@@ -30,11 +15,6 @@ from utils import (
     validate_profile,
     validate_search_query,
 )
-
-# ---------------------------------------------------------------------------
-# Page config + light custom styling (Streamlit's dark theme handles most of
-# the "professional dark SaaS" look already; this just polishes spacing).
-# ---------------------------------------------------------------------------
 
 st.set_page_config(
     page_title="AI College Finder",
@@ -67,9 +47,9 @@ st.markdown(
 )
 
 
-# ---------------------------------------------------------------------------
-# Session state initialization (Streamlit's equivalent of AppState in gui.py)
-# ---------------------------------------------------------------------------
+# -----------------------------
+# Session state initialization 
+# -----------------------------
 
 def init_state():
     if "app_state" not in st.session_state:
