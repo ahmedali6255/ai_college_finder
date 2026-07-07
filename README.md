@@ -109,9 +109,6 @@ Contributions, suggestions, and improvements are always welcome.
 
 ## 👨‍💻 Author
 
-**Ahmed Ali**
-
-Electrical Engineering Student | Tech Enthusiast
-Linkedin: www.linkedin.com/in/ahmedali88
-```
-
+*Ahmed Ali*  
+Electrical Engineering Student | Tech Enthusiast  
+Linkedin: [www.linkedin.com/in/ahmedali88](https://www.linkedin.com/in/ahmedali88)
